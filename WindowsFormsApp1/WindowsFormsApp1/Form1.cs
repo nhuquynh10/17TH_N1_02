@@ -15,6 +15,10 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
+            int tong = tonghaiso(1, 1);
+        }
+        public int tonghaiso(int a, int b) {
+            return a + b;
         }
 
     }
