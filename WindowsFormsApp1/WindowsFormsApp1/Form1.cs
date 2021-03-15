@@ -15,11 +15,20 @@ namespace WindowsFormsApp1
         public Form1()
         {
             InitializeComponent();
-            int tong = tonghaiso(1, 1);
+            string tong = formatstring("t");
         }
-        public int tonghaiso(int a, int b) {
-            return a + b;
+        
+       /* using System.Linq;
+        using System.Text;
+        using System.Threading.Tasks;
+        using System.Windows.Forms;
+        */
+        
+        //start test function
+        public string formatstring(string s) {
+            return s + "test";
         }
+        //end test function
 
     }
 }
